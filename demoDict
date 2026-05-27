@@ -1,0 +1,18 @@
+# demoDict.py
+
+# 사전식구조
+colors = {"apple":"red","banana":"yellow"}
+print(len(colors))
+
+colors["cherry"] = "red"
+print(colors)
+colors["apple"] = "blue"
+print(colors)
+
+del(colors["apple"])
+print("-------------------")
+for item in colors.items():
+    print(item)
+
+
+print(1 != 2)
